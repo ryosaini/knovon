@@ -254,7 +254,7 @@ body {
 }
 
 .Engage_us {
-    background: url('/assets/img/Engage.png');
+    background: url(../assets/img/Engage.png);
     width: 100%;
     height: 100vh;
     background-size: 101% 100%;
@@ -456,7 +456,7 @@ body {
 /* Automate your processes */
 
 .automate_proc {
-    background: url(/assets/img/automate-bg.png);
+    background: url(../assets/img/automate-bg.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -607,7 +607,7 @@ footer {
     width: 100%;
     height: 56vh;
     background-size: 100% 114%;
-    padding: 7rem 0 2rem 0;
+    padding: 6rem 0 2rem 0;
     background-repeat: no-repeat;
     position: relative;
 }
