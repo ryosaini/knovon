@@ -13,411 +13,692 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Oxygen&display=swap"
     rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets\owlcarousel\assets\owl.carousel.min.css">
+  <link rel="stylesheet" href="assets\owlcarousel\assets\owl.theme.default.min.css">
   <link href="css\style.css" rel="stylesheet">
-  <title>Hello, world!</title>
+  <title>knovoncosulting</title>
 </head>
 
 <body>
-  <header class="bg-white">
+  <nav class="navbar  bg-white navbar-light">
     <div class="container">
-      <div class="nav_header nav pt-2">
-        <img src="assets\img\knovon-logo-color.png">
-        <div class="nav_menu my-auto">
-          <ul class="nav">
-            <li>Services</li>
-            <li class="m-auto">About Us</li>
-            <li>Our Work</li>
-          </ul>
-        </div>
+      <a class="navbar-brand nav_header" href="#"><img src="assets\img\knovon-logo-color.png"></a>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <!-- <div class="collapse navbar-collapse mid-nav none" id="collapsibleNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Work</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item me-4">
+            <a class="nav-link" href="#">Contact us</a>
+          </li>
+        </ul>
+
+
+      </div> -->
+      <div class="d-flex small-blb">
+        <img src="assets\img\Asset 35.png">
       </div>
     </div>
-  </header>
-  
+  </nav>
+
   <main>
-
- 
-  <!-- landing banner -->
-  <section class="pb-1">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel>    <!-- //data-bs-ride="
-      carousel"// -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+    <div class="click_option">
+  <span class="techQ"><a href="nonTech.html">Are you Non-tech founder?</a></span>
+  <span class="non_techQ"><a href="tech.html">Are You lifesciences consulting firm?</a></span>
+    </div>
+    <!-- landing banner -->
+    <section class="pb-1 banner">
+      <div class="owl-carousel owl-theme owl-carousel_banner">
+        <div class="item">
           <img src="assets\img\banner-konvon-New-size-10 (3).png" class="d-block w-100" alt="...">
           <h1>Handcrafting digital solutions <br>
             for Healthcare / lifesciences</h1>
         </div>
-        <div class="carousel-item">
-          <img src="assets\img\banner-konvon-new-with-bulb-07.png" class="d-block w-100" alt="...">
+        <div class="item">
+          <h1>Driving <span style="color: #D9543D;">digital innovations</span> backed <br>
+            by domain experts</h1>
+          <img src="assets\img\banner-konvon-new-22-07.png" class="d-block w-100" alt="...">
+          <div class="bulb-img" data-aos="zoom-in-up">
+            <img src="assets\img\Asset 1.png">
+          </div>
         </div>
       </div>
 
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <img class="next-btn" src="assets\img\next-btn.png">
-      </button>
-    </div>
-  </section>
-  <!-- our work -->
-  <section class="our_work  pt-2">
-    <div class="arrow_bg" style="left: -17px;
+
+    </section>
+
+    <!-- our work -->
+    <section class="our_work  pt-2">
+      <div class="arrow_bg" style="left: -17px;
     top: 14rem;">
-      <img src="assets\img\arrow-bg.png" style="width: 71%;">
-      <h1>We do</h1>
-    </div>
-
-
-    <div class="container position-relative">
-      <div class="impact_text">
-        <img src="assets\img\Services-bg-13_text-removebg-preview.png">
-        <!-- <h1>Simple</h1>
+        <img src="assets\img\arrow-bg.png" style="width: 71%;">
+        <h1>We do</h1>
+      </div>
+      <div class="container position-relative">
+        <div class="impact_text">
+          <img src="assets\img\Services-bg-13_text-removebg-preview.png">
+          <!-- <h1>Simple</h1>
         <h1>Impactful</h1>
         <h1>Secure</h1> -->
+        </div>
+        <div class="logo-crousal mx-auto">
+          <div class="owl-carousel owl-theme owl-carousel_logo">
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
             </div>
-      <div class="logo-crousal mx-auto">
-        <span><img src="assets\img\logo\helthcarelogo-removebg-preview.png"></span>
-        <span><img src="assets\img\logo\mcs-removebg-preview.png"></span>
-        <span><img src="assets\img\logo\smilingccv-removebg-preview.png"></span>
-        <span><img src="assets\img\logo\possible-removebg-preview.png"></span>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+
+            <div class="item">
+              <img src="assets\img\logo\helthcarelogo-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\mcs-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\smilingccv-removebg-preview.png">
+            </div>
+            <div class="item">
+              <img src="assets\img\logo\possible-removebg-preview.png">
+            </div>
+          </div>
+
+        </div>
+        <!-- work element -->
+        <div class="col-9 d-flex justify-content-between outer_element">
+          <div class="col-3 d-flex">
+            <div class="scroll_design">
+              <span class="scroll_design_thumb"></span>
+
+            </div>
+            <div class="content_box">
+              <img src="assets\img\boxicon.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">Product <br>
+                Engineering</h2>
+              <h3 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="180" data-aos-offset="180">We love
+                brainstorming.
+              </h3>
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" data-aos-offset="200">Have an idea;
+                build your
+                amazing product today with
+                our product engineering
+                expertise and your thoughts. </p>
+            </div>
+          </div>
+          <div class="col-3 d-flex">
+            <div class="scroll_design">
+              <span class="scroll_design_thumb"></span>
+
+            </div>
+            <div class="content_box">
+              <img src="assets\img\boxicon.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">Web<br>
+                Development
+              </h2>
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="180" data-aos-offset="180">Looking for a
+                web-presence
+                or just want to say hello to us,
+                connect today. </p>
+            </div>
+          </div>
+          <div class="col-3 d-flex">
+            <div class="scroll_design">
+              <span class="scroll_design_thumb"></span>
+
+            </div>
+            <div class="content_box">
+              <img src="assets\img\boxicon.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">Mobile App <br>
+                Development
+              </h2>
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="180" data-aos-offset="180">Be it App
+                store or Play Store,
+                we can take you there </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 d-flex justify-content-between outer_element_2">
+          <div class="col-3 d-flex">
+            <div class="scroll_design">
+              <span class="scroll_design_thumb"></span>
+
+            </div>
+            <div class="content_box">
+              <img src="assets\img\boxicon.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">Data<br>
+                Insights</h2>
+
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="180" data-aos-offset="180">Know the depth
+                of data and
+                what it tells while maintaining
+                your interests at heart.</p>
+            </div>
+          </div>
+          <div class="col-3 d-flex">
+            <div class="scroll_design">
+              <span class="scroll_design_thumb"></span>
+
+            </div>
+            <div class="content_box">
+              <img src="assets\img\boxicon.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">Data<br>
+                Visualization</h2>
+
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="180" data-aos-offset="180">Know the power
+                of data with
+                simple visuals and high
+                impact </p>
+            </div>
+          </div>
+          <div class="col-3 d-flex">
+            <div class="scroll_design">
+              <span class="scroll_design_thumb"></span>
+
+            </div>
+            <div class="content_box">
+              <img src="assets\img\boxicon.png" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150" data-aos-offset="150">Business<br>
+                Intelligence</h2>
+
+              <p data-aos="fade-left" data-aos-duration="1000" data-aos-delay="180" data-aos-offset="180">Get your
+                decision making
+                straight with our custom
+                solutions to support your
+                business</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- work element -->
-      <div class="col-9 d-flex justify-content-between outer_element">
-        <div class="col-3 d-flex">
-          <div class="scroll_design">
-            <span class="scroll_design_thumb"></span>
+    </section>
 
-          </div>
-          <div class="content_box">
-            <img src="assets\img\boxicon.png">
-            <h2>Product <br>
-              Engineering</h2>
-            <h3>We love brainstorming.
-            </h3>
-            <p>Have an idea; build your
-              amazing product today with
-              our product engineering
-              expertise and your thoughts. </p>
-          </div>
-        </div>
-        <div class="col-3 d-flex">
-          <div class="scroll_design">
-            <span class="scroll_design_thumb"></span>
-
-          </div>
-          <div class="content_box">
-            <img src="assets\img\boxicon.png">
-            <h2>Product <br>
-              Engineering</h2>
-            <h3>We love brainstorming.
-            </h3>
-            <p>Have an idea; build your
-              amazing product today with
-              our product engineering
-              expertise and your thoughts. </p>
-          </div>
-        </div>
-        <div class="col-3 d-flex">
-          <div class="scroll_design">
-            <span class="scroll_design_thumb"></span>
-
-          </div>
-          <div class="content_box">
-            <img src="assets\img\boxicon.png">
-            <h2>Product <br>
-              Engineering</h2>
-            <h3>We love brainstorming.
-            </h3>
-            <p>Have an idea; build your
-              amazing product today with
-              our product engineering
-              expertise and your thoughts. </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-9 d-flex justify-content-between outer_element_2">
-        <div class="col-3 d-flex">
-          <div class="scroll_design">
-            <span class="scroll_design_thumb"></span>
-
-          </div>
-          <div class="content_box">
-            <img src="assets\img\boxicon.png">
-            <h2>Product <br>
-              Engineering</h2>
-            <h3>We love brainstorming.
-            </h3>
-            <p>Have an idea; build your
-              amazing product today with
-              our product engineering
-              expertise and your thoughts. </p>
-          </div>
-        </div>
-        <div class="col-3 d-flex">
-          <div class="scroll_design">
-            <span class="scroll_design_thumb"></span>
-
-          </div>
-          <div class="content_box">
-            <img src="assets\img\boxicon.png">
-            <h2>Product <br>
-              Engineering</h2>
-            <h3>We love brainstorming.
-            </h3>
-            <p>Have an idea; build your
-              amazing product today with
-              our product engineering
-              expertise and your thoughts. </p>
-          </div>
-        </div>
-        <div class="col-3 d-flex">
-          <div class="scroll_design">
-            <span class="scroll_design_thumb"></span>
-
-          </div>
-          <div class="content_box">
-            <img src="assets\img\boxicon.png">
-            <h2>Product <br>
-              Engineering</h2>
-            <h3>We love brainstorming.
-            </h3>
-            <p>Have an idea; build your
-              amazing product today with
-              our product engineering
-              expertise and your thoughts. </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<!-- Engage with us -->
-<section class="Engage_us py-2">
-<div class="headiing_Enagaing my-auto">
-  <h1>Engage with us</h1>
-<div class="Engage_element_outer">
-  <div class="Engage_element">
-    <img src="assets\img\engae_user.png">
-    <h3>Product<br>
-      Engineering<br>
-      as a service</h3>
-      </div>
-    
-      <div class="Engage_element">
-        <img src="assets\img\engae_user.png">
-        <h3>Hire a <br>
-          developer /<br>
-          FTE</h3>
-          </div>
-    
-          <div class="Engage_element">
+    <!-- Engage with us -->
+    <section class="Engage_us py-2">
+      <div class="headiing_Enagaing my-auto">
+        <h1>Engage with us</h1>
+        <div class="Engage_element_outer">
+          <div class="Engage_element" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="100"
+            data-aos-offset="100">
             <img src="assets\img\engae_user.png">
-            <h3>Hire your  <br>
+            <h3>Product<br>
+              Engineering<br>
+              as a service</h3>
+          </div>
+
+          <div class="Engage_element" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200"
+            data-aos-offset="150">
+            <img src="assets\img\engae_user.png">
+            <h3>Hire a <br>
+              developer /<br>
+              FTE</h3>
+          </div>
+
+          <div class="Engage_element" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300"
+            data-aos-offset="200">
+            <img src="assets\img\engae_user.png">
+            <h3>Hire your <br>
               CTO</h3>
+          </div>
+
+          <div class="Engage_element me-0" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="400"
+            data-aos-offset="250">
+            <img src="assets\img\engae_user.png">
+            <h3>Ad-hoc<br>
+              Project
+            </h3>
+          </div>
+          <img src="assets\img\Asset 26.png" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="550"
+            data-aos-offset="300">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- case study -->
+    <section class="case_study pt-2 ">
+      <div class="arrow_bg">
+        <img src="assets\img\arrow-bg-dark.png">
+        <h2>Case Study</h2>
+      </div>
+      <div class="container-fluid">
+        <div class="owl-carousel owl-theme owl-carousel_Case">
+          <div class="item">
+            <div class="row g-0 ">
+              <div class="col-5 case_study_outer pe-0">
+                <div class="case_study_bg">
+
+                  <h2> Case Study 1</h2>
+                  <p> Our customer is thought leader in Pharmaceutical
+                    Marketing and had developed an interview process and
+                    accompanying excel based analytics to visualize the data.
+                    <br>
+                    <br>
+                    The customer challenge was to build a web based tool to
+                    conduct interviews, and automatically compile, anlyse and
+                    visualise the data.
+                    <br>
+                    <br>
+                    The result was a web based application with dashboards
+                    developed using Hi-Charts. The web appluication was
+                    developed as per Pharmaceutical IT security standards
+                    and is currently deployed across the major
+                    pharmaceutical companies.
+                  </p>
+
+                </div>
               </div>
-    
-              <div class="Engage_element me-0">
-                <img src="assets\img\engae_user.png">
-                <h3>Ad-hoc<br>
-                  Project
-                </h3>
+              <div class="col-6 ps-0">
+                <div class="case_st_right  ">
+                  <img src="assets\img\case-study.png" data-aos="fade-down" data-aos-duration="1000"
+                    data-aos-delay="100" data-aos-offset="100">
+                  <div class="col-12 d-flex">
+                    <div class="first_tech" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20"
+                      data-aos-offset="20">
+                      <p>Plateform</p>
+                      <p>Availability</p>
+                      <img src="assets\img\web-icon.png">
+                      <p>Web-based</p>
+                    </div>
+                    <div class="list_tech">
+                      <p>Technology</p>
+                      <p> we used</p>
+                      <div class="tech-box" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20"
+                        data-aos-offset="20">
+                        <img class="tech-img_1" src="assets\img\net.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_2" src="assets\img\bootstrap.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_3" src="assets\img\pngegg.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_4" src="assets\img\sql-server-icon.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_5" src="assets\img\NicePng_google-cloud-logo-png_3578467.png"
+                          data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                      </div>
+                    </div>
+                    <div class="busines-tech" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20"
+                      data-aos-offset="20">
+                      <p>Business</p>
+                      <p>Domain</p>
+                      <p>Recruitment</p>
+                    </div>
+
                   </div>
-                  <img src="assets\img\Asset 26.png">
-</div>
-
-</div>
-</section>
-  <!-- case study -->
-  <section class="case_study pt-2 ">
-    <div class="arrow_bg">
-      <img src="assets\img\arrow-bg-dark.png">
-      <h2>Case Study</h2>
-    </div>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-5 case_study_outer pe-0">
-      <div class="case_study_bg">
-        <h2> Case Study 1</h2>
-        <p> Our customer is thought leader in Pharmaceutical
-         Marketing and had developed an interview process and
-         accompanying excel based analytics to visualize the data.
-         <br>
-         <br>
-         The customer challenge was to build a web based tool to
-         conduct interviews, and automatically compile, anlyse and
-         visualise the data.
-         <br>
-         <br>
-         The result was a web based application with dashboards
-         developed using Hi-Charts. The web appluication was
-         developed as per Pharmaceutical IT security standards
-         and is currently deployed across the major
-         pharmaceutical companies.</p>
-       </div>
-    </div>
-  <div class="col-6 ps-0">
-    <div class="case_st_right">
-  <img src="assets\img\case_study_bg2.png" class="w-100">
-    </div>
-  </div>
-  </div>
-
-</div>
+                </div>
 
 
-  </section>
-<!-- GDPR -->
-<section class="gdpr py-2">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row g-0 ">
+              <div class="col-5 case_study_outer pe-0">
+                <div class="case_study_bg">
 
-  <div class="container-fluid px-0">
+                  <h2> Case Study 2</h2>
+                  <p> Our customer is thought leader in Pharmaceutical
+                    Marketing and had developed an interview process and
+                    accompanying excel based analytics to visualize the data.
+                    <br>
+                    <br>
+                    The customer challenge was to build a web based tool to
+                    conduct interviews, and automatically compile, anlyse and
+                    visualise the data.
+                    <br>
+                    <br>
+                    The result was a web based application with dashboards
+                    developed using Hi-Charts. The web appluication was
+                    developed as per Pharmaceutical IT security standards
+                    and is currently deployed across the major
+                    pharmaceutical companies.
+                  </p>
 
-    <div class="blue-part">
-      <div class="adjust_content">
-        <h1>We understand pharma IT compliances</h1>
-        <div class="stamp_box">
-          <img src="assets\img\gdpr.png">  
-          <img src="assets\img\hippa.png"> 
-          <img src="assets\img\safe.png"> 
+                </div>
+              </div>
+              <div class="col-6 ps-0">
+                <div class="case_st_right  ">
+                  <img src="assets\img\case-study.png" data-aos="fade-down" data-aos-duration="1000"
+                    data-aos-delay="100" data-aos-offset="100">
+                  <div class="col-12 d-flex">
+                    <div class="first_tech" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20"
+                      data-aos-offset="20">
+                      <p>Plateform</p>
+                      <p>Availability</p>
+                      <img src="assets\img\web-icon.png">
+                      <p>Web-based</p>
+                    </div>
+                    <div class="list_tech">
+                      <p>Technology</p>
+                      <p> we used</p>
+                      <div class="tech-box" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20"
+                        data-aos-offset="20">
+                        <img class="tech-img_1" src="assets\img\net.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_2" src="assets\img\bootstrap.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_3" src="assets\img\pngegg.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_4" src="assets\img\sql-server-icon.png" data-aos="fade-up-left"
+                          data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                        <img class="tech-img_5" src="assets\img\NicePng_google-cloud-logo-png_3578467.png"
+                          data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20" data-aos-offset="20">
+                      </div>
+                    </div>
+                    <div class="busines-tech" data-aos="fade-up-left" data-aos-duration="1000" data-aos-delay="20"
+                      data-aos-offset="20">
+                      <p>Business</p>
+                      <p>Domain</p>
+                      <p>Recruitment</p>
+                    </div>
+
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our culture -->
+    <section class="our_Culture">
+      <div class="Culturer_title">
+        <h1>Our Culture</h1>
+        <p>Lorem ipsum dolor sit amet, per cu suas.
+          Aperiam iuvaret has ei, sint efficiendi ex per. </p>
+      </div>
+      <div class="img-crousal_outer">
+        <div class="carousel-wrap">
+          <div class="owl-carousel owl-carousel_Culture">
+            <div class="item"><img src="assets\img\knovon_team\IMG_0212.JPG">
+              <!-- <p>demo text</p> -->
+            </div>
+            <div class="item"><img src="assets\img\knovon_team\IMG_E0827.JPG"></div>
+            <div class="item"><img src="assets\img\knovon_team\IMG-20221021-WA0046.jpg" class="mt-4"></div>
+            <div class="item"><img src="assets\img\knovon_team\IMG-20220316-WA0013.jpg"></div>
+            <div class="item"><img src="assets\img\knovon_team\IMG-20220316-WA0007.jpg" class="mt-4"></div>
+          </div>
         </div>
       </div>
 
-    <div class="big-arrow">
-      <img src="assets\img\big-arrow-bg.png" >
-      <img src="assets\img\smallarrow.png">
-      <img src="assets\img\outlinearrow-removebg-preview.png">
-      <h1>Make your solution safe, secure and<br>
-        compliant with our finest expertise in handling<br>
-        due-dilligence process</h1>
+    </section>
+
+    <!-- GDPR -->
+    <section class="gdpr py-2">
+      <div class="container-fluid px-0">
+        <div class="blue-part">
+          <div class="adjust_content">
+            <h1>We understand pharma IT compliances</h1>
+            <div class="stamp_box">
+              <img src="assets\img\gdpr.png" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-offset="100">
+              <img src="assets\img\hippa.png" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="150"
+                data-aos-offset="150">
+              <img src="assets\img\safe.png" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="200"
+                data-aos-offset="200">
+            </div>
+          </div>
+
+          <div class="big-arrow">
+            <img src="assets\img\big-arrow-bg.png" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200"
+              data-aos-offset="200">
+            <img src="assets\img\Asset 34.png">
+            <img src="assets\img\outlinearrow-removebg-preview.png">
+            <h1 data-aos="fade-left" data-aos-duration="1200" data-aos-delay="250" data-aos-offset="250">Make your
+              solution safe, secure and<br>
+              compliant with our finest expertise in handling<br>
+              due-dilligence process</h1>
+
+          </div>
 
         </div>
-
-    </div>
-      <div class="white-part">
-      <h1>Looking for a website, mobile app, or have an idea but no clue how to go further,
-        <h1>schedule a free 15 min consultation</h1>
-        <h1>Happy to help</h1>
-        <div class="Schedule_Now_btn">
-          Schedule Now
+        <div class="white-part">
+          <h1 data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="200" data-aos-offset="200">Looking for a
+            website, mobile app, or have an idea but no clue how to go further,
+            <h1 data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="220" data-aos-offset="200">schedule a
+              free 15 min consultation</h1>
+            <h1 data-aos="zoom-in-up" data-aos-duration="1200" data-aos-delay="240" data-aos-offset="240">Happy to help
+            </h1>
+            <div class="Schedule_Now_btn" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="250"
+              data-aos-offset="250">
+              Schedule Now
+            </div>
         </div>
       </div>
-  </div>
 
-</section>
-<!-- Automate your processes -->
-<section class="automate_proc">
-  <div class="inside_text">
-    <h6>Healthcare / Lifesciences Consulting Firm</h6>
-    <h1>Leverage our tech solutioning experience <br>
-      to gain better traction</h1>
-      <h2>Automate your processes today</h2>
-      <h3>Prior digital solutioning experience inL</h3>
-<div class="d-flex">
-  <div class="col-12 d-flex">
-    <div class="automate_element">
-     <img src="assets\img\linearrow.png">
-      <h3> E-learning<br>
-        Solutions</h3>
-    </div>
-    <div class="automate_element">
-      <img src="assets\img\linearrow.png">
-      <h3> RWE <br>
-        Data</h3>
-     </div>
-     <div class="automate_element">
-      <img src="assets\img\linearrow.png">
-       <h3>Marketeer <br>
-        Assessments</h3>
-     </div>
-     <div class="automate_element">
-      <img src="assets\img\linearrow.png">
-       <h3> Personal<br>
-        Development <br>
-        Programm</h3>
-     </div>
-     <div class="automate_element">
-      <img src="assets\img\linearrow.png">
-       <h3> Commercial<br>
-        Assessment<br>
-        & Excellence
-        </h3>
-     </div>
-     <div class="automate_element">
-      <img src="assets\img\linearrow.png">
-       <h3> CI News<br>
-        Montoring<br>
-        & Live coverage
-        </h3>
-     </div>
-     <div class="automate_element">
-      <img src="assets\img\linearrow.png">
-       <h3> Pharma<br>
-        Brand Launch<br>
-        Marketing
-        </h3>
-     </div>
-  </div>
-</div>
-  </div>
+    </section>
 
-</section>
-<!-- team -->
-<section class="team position-relative">
-  <div class="arrow_bg_dark">
-    <img src="assets\img\arrow-bg-dark.png">
-    <h2>The Team</h2>
-  </div>
-  <div class="container-fluid">
-  <div class="col-11 ms-auto team_img"> 
-    <img src="assets\img\team.png" class="img-fluid">
-  </div>
-
+    <!-- Automate your processes -->
   
-  </div>
-</section>
-</main>
-<footer>
-<div class="container">
-  <div class="row no-gutters">
-<div class="col-md-3 col-12">
-<img src="assets\img\footer_logo.png" >
-</div>
-<div class="col-md-3 col-12 m-auto">
-<div class="contact mb-2 cursor-pointer"><img src="assets\img\ph_icon.png"> <label>+91 8527 1539 84, +91 9261 6782 44</label> </div>
-<div class="email cursor-pointer"><img src="assets\img\em_icon.png"><a href="mailto:ankitash.tulyani@knovoncosulting.com"><label>ankitash.tulyani@knovoncosulting.com</label></a>  </div>
-</div>
-<div class="col-md-3 col-12 m-auto ">
-  <div class="address d-flex"><img src="assets\img\wb_icon.png"> <label>We work Berger Delhi One, Tower-A ,Sector 16-B,
-    Gautam Buddha Nagar, Noida, Uttar Pradesh,
-    India 201301
-    </label> </div>
-</div>
-<div class="col-1 ">
 
-</div>
-<div class="col-12 ">
-  <p class="Copyright col-6">© Copyright 2022 Knovon Consulting. All Rights Reserved. Privacy Policy Cookies</p>
-  <a href="" class="Privacy_Policy">Privacy Policy</a>
-  <a href="" class="Cookies">Cookies</a>
-</div>
+    <!-- team -->
+    <section class="team position-relative ">
+      <!-- <div class="arrow_bg_dark">
+        <img src="assets\img\arrow-bg-dark.png">
+        <h2>The Team</h2>
+      </div> -->
+<div class="team_img">
+  <div class="col-9 mx-auto pt-4">
+    <img src="assets\img\team-img.png">
   </div>
 </div>
-</footer>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-md-3 col-12">
+          <img src="assets\img\footer_logo.png">
+        </div>
+        <div class="col-md-3 col-12 m-auto">
+          <div class="contact mb-2 cursor-pointer"><img src="assets\img\ph_icon.png"> <label>+91 8527 1539 84, +91 9261
+              6782 44</label> </div>
+          <div class="email cursor-pointer"><img src="assets\img\em_icon.png"><a
+              href="mailto:ankitash.tulyani@knovoncosulting.com"><label>ankitash.tulyani@knovoncosulting.com</label></a>
+          </div>
+        </div>
+        <div class="col-md-3 col-12 m-auto ">
+          <div class="address d-flex"><img src="assets\img\wb_icon.png"> <label>We work Berger Delhi One, Tower-A
+              ,Sector 16-B,
+              Gautam Buddha Nagar, Noida, Uttar Pradesh,
+              India 201301
+            </label> </div>
+        </div>
+        <div class="col-1 ">
+
+        </div>
+        <div class="col-12 ">
+          <p class="Copyright col-6">© Copyright 2022 Knovon Consulting. All Rights Reserved. Privacy Policy Cookies</p>
+          <a href="" class="Privacy_Policy">Privacy Policy</a>
+          <a href="" class="Cookies">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="scripts\bootstrapmin.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="assets\owlcarousel\owl.carousel.js"></script>
   <script>
-    $(window).scroll(function(){
+    $(window).scroll(function () {
       if ($(this).scrollTop() > 50) {
-        $('header').addClass('fixed');
+        $('nav').addClass('shade');
       } else {
-          $('header').removeClass('fixed');
+        $("nav").removeClass("shade");
+
       }
-});
+    });
+    $(document).ready(function () {
+      var owllogo = $('.owl-carousel_logo');
+      var owlCulture = $('.owl-carousel_Culture');
+      var owl = $('.owl-carousel_Case');
+      var owlbanner = $('.owl-carousel_banner');
+      owllogo.owlCarousel({
+        items: 4,
+        loop: true,
+        margin: 4,
+        autoplay: true,
+        slideSpeed: 800,
+        autoPlay: 6000,
+        smartSpeed: 2000,
+      });
+      owlCulture.owlCarousel({
+        center: true,
+        items: 4,
+        loop: true,
+        autoplay: true,
+        slideSpeed: 800,
+        autoPlay: 10000,
+        smartSpeed: 2000,
+        responsive: {
+          600: {
+            items: 4
+          }
+        }
+      });
+      owl.owlCarousel({
+        autoplayHoverPause:true,
+        stagePadding: 0,
+        margin: 0,
+        items: 1,
+        autoplay: true,
+        loop: true,
+        slideSpeed: 800,
+        autoPlay: 10000,
+        smartSpeed: 2000,
+
+      });
+      owlbanner.owlCarousel({
+        stagePadding: 0,
+        margin: 0,
+        items: 1,
+        loop: true,
+        autoplay: true,
+        slideSpeed: 1000,
+        smartSpeed: 2000,
+        nav: true,
+        navText: [" ", "<img src='assets/img/next-btn.png' class='next-btn'>"],
+
+      });
+      // owl.on("mousewheel", ".owl-stage", function (e) {
+      //     if (e.originalEvent.wheelDelta > 0) {
+      //       owl.trigger("next.owl");
+      //     } else {
+      //       owl.trigger("prev.owl");
+      //     }
+      //     e.preventDefault();
+      //   });
+      AOS.init({});
+    });
   </script>
+
 </body>
 
 </html>
