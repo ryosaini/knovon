@@ -64,7 +64,7 @@ body {
     position: fixed;
     right: -1%;
     z-index: 999999999;
-    top: 76%;
+    top: 50rem;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
@@ -89,7 +89,7 @@ body {
     border-radius: 41px;
     right: -1%;
     z-index: 999999999;
-    top: 83.5%;
+    top: 55rem;
 }
 .non_techQ:hover{
     filter: drop-shadow(1px 2px 4px black);
