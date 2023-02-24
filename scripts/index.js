@@ -1,7 +1,11 @@
 
-setTimeout(function() {
-  $('.loader').addClass('d-none');
-}, 5000);
+
+$(window).on('load',function() {
+  setTimeout(function() {
+    $('.loader').addClass('d-none');
+  }, 3500);
+ });
+
     $(document).ready(function () {
       var owllogo = $('.owl-carousel_logo');
       var owlCulture = $('.owl-carousel_Culture');
