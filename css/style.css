@@ -39,9 +39,8 @@ body {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #116485;
+    background: linear-gradient(90deg, rgba(236, 238, 243, 1) 0%, rgba(82, 95, 128, 1) 0%, rgba(132, 91, 103, 1) 100%);
     border-radius: 10px;
-    border: 2px solid #116485;
 }
 
 :root {
@@ -51,6 +50,30 @@ body {
     --switch-text-color: #105780
 }
 
+.loader-inner{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    background: white;
+    height:100vh;
+    z-index: 9999999999999999999999;
+    position: fixed;
+}
+
+.loader-inner > img{
+    width: 22rem;
+    margin: auto;
+}
+.loader-logo{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.loader-logo > img {
+    width: 15.5rem;
+    margin: auto;
+}
 .nav_header>img {
     width: 16rem;
 }

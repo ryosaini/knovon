@@ -70,8 +70,10 @@
       //     e.preventDefault();
       //   });
       AOS.init({});
-    });
-    $(window).scroll(function () {
+      setTimeout(function() {
+        $('.loader').addClass('d-none');
+    }, 5000);
+    $(window).on('scroll',function () {
         if ($(this).scrollTop() > 50) {
           $('nav').addClass('shade');
         } else {
@@ -79,3 +81,4 @@
   
         }
       });
+    });
