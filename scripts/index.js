@@ -3,7 +3,7 @@
 $(window).on('load',function() {
   setTimeout(function() {
     $('.loader').addClass('d-none');
-  }, 3500);
+  }, 1000);
  });
 
     $(document).ready(function () {
