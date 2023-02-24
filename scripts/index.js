@@ -1,5 +1,7 @@
 
-
+setTimeout(function() {
+  $('.loader').addClass('d-none');
+}, 5000);
     $(document).ready(function () {
       var owllogo = $('.owl-carousel_logo');
       var owlCulture = $('.owl-carousel_Culture');
@@ -70,9 +72,7 @@
       //     e.preventDefault();
       //   });
       AOS.init({});
-      setTimeout(function() {
-        $('.loader').addClass('d-none');
-    }, 5000);
+   
     $(window).on('scroll',function () {
         if ($(this).scrollTop() > 50) {
           $('nav').addClass('shade');
