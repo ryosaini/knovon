@@ -1149,7 +1149,7 @@ label {
 /* responsive */
 
 /* mobile */
-@media (min-width: 390px) and (max-width: 500px)  {
+@media (min-width: 390px) and (max-width: 575px)  {
     html,body {
         font-size: 60.5% !important;
     
