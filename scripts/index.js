@@ -3,7 +3,7 @@
 $(window).on('load',function() {
   setTimeout(function() {
     $('.loader').addClass('d-none');
-  }, 1000);
+  }, 500);
  });
 
     $(document).ready(function () {
@@ -85,4 +85,14 @@ $(window).on('load',function() {
   
         }
       });
+      $('.scroll_top').hide()
+      $(window).scroll(function() {  
+        var scrollHeight = window.scrollY || $(window).scrollTop();                                          
+            if ((window.innerHeight + scrollHeight) >= document.body.offsetHeight) {                       
+        $('.scroll_top').show()                                             
+            }       
+            else{
+              $('.scroll_top').hide()
+            }                                                                                                         
+    });
     });
