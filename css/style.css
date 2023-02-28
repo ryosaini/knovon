@@ -371,21 +371,21 @@ margin-bottom: 0;
 
 .tech-img_1 {
     width: 21%;
-    height: fit-content;
+    height: unset;
     margin-right: 1rem;
 
 }
 
 .tech-img_2 {
     width: 10%;
-    height: fit-content;
+    height: unset;
     margin-right: 0rem;
 
 }
 
 .tech-img_3 {
     width: 10.5%;
-    height: fit-content;
+    height: unset;
     margin-right: 1rem;
     margin-top: -0.4rem;
 
@@ -393,7 +393,7 @@ margin-bottom: 0;
 
 .tech-img_4 {
     width: 11%;
-    height: fit-content;
+    height: unset;
     margin-right: 1rem;
     margin-top: -0.8rem;
 
@@ -401,7 +401,7 @@ margin-bottom: 0;
 
 .tech-img_5 {
     width: 35%;
-    height: fit-content;
+    height: unset;
 
 }
 
