@@ -364,7 +364,7 @@ margin-bottom: 0;
 .tech-box {
     justify-content: space-between;
     display: flex;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 1rem !important;
     align-items: center;
 }

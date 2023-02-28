@@ -1433,6 +1433,7 @@ margin-top: 5rem;
         right: -2.5%;
         left: unset;
         top: 49.7rem;
+         bottom: unset;
     }
     .techQ >a{
         font-size: 1rem;
@@ -1442,6 +1443,7 @@ margin-top: 5rem;
         right: -3%;
         top: 53.5rem;
         left: unset;
+        bottom: unset;
     }
     .non_techQ > a{
         font-size: 1rem;

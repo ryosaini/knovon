@@ -1,12 +1,7 @@
-
-
-$(window).on('load',function() {
-  setTimeout(function() {
-    $('.loader').addClass('d-none');
-  }, 500);
- });
-
     $(document).ready(function () {
+      setTimeout(function() {
+    $('.loader').addClass('d-none');
+  }, 2000);
       var owllogo = $('.owl-carousel_logo');
       var owlCulture = $('.owl-carousel_Culture');
       var owl = $('.owl-carousel_Case');
